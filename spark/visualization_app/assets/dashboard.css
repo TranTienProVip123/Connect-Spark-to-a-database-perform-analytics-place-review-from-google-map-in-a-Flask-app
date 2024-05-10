@@ -1,0 +1,97 @@
+.dashboard-container {
+    background-color: #fff;
+    padding: 20px 2%;
+}
+
+.total-item>label {
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
+.total-item>div {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.contain-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* or justify-content: space-between; */
+    gap: 20px;
+    padding-top: 12px;
+}
+.contain-layout2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* or justify-content: space-between; */
+    gap: 10px;
+    padding-top: 12px;
+} 
+/* Định dạng dropdown để chiếm không gian rộng đầy đủ */
+.contain-layout>div {
+    width: 100%;
+}
+
+/* Optional: Thêm media query để điều chỉnh kiểu dáng cho các màn hình nhỏ hơn */
+@media only screen and (max-width: 600px) {
+    .contain-layout {
+        flex-direction: column;  /* Nếu màn hình nhỏ hơn, chuyển sang hiển thị dọc */
+    }
+}
+
+.contain2-layout {
+    display: flex;
+    justify-content: space-between;  /* Các thành phần sẽ được căn giữa và cách nhau ra xa nhau */
+    align-items: center;  /* Căn giữa theo chiều dọc */
+    gap: 20px;
+    padding-top: 12px;
+    margin: 0 auto
+}
+
+/* Định dạng dropdown để chiếm không gian rộng đầy đủ */
+.contain2-layout>div {
+    /* width: 100%; */
+}
+
+.live-green-text{
+    color: #9fda3a;
+    font-weight: bold;
+    font-size:24px;
+    text-align: center;
+}
+
+.live-stream-text {
+    font-size:24px;
+    text-align: center;
+}
+
+/* CSS cho các thành phần trong row-item nằm cùng một dòng */
+.row-item {
+    display: flex;  /* Sử dụng Flexbox */
+    flex-direction: row;  /* Sắp xếp các thành phần theo hướng ngang */
+    align-items: center;  /* Căn giữa các thành phần theo chiều dọc */
+}
+
+.label-info{
+    padding-right: 12px;
+}
+
+/* CSS cho các row-item nằm dọc */
+.row-layout {
+    display: flex;  /* Sử dụng Flexbox */
+    flex-direction: column;  /* Sắp xếp các row-item theo hướng dọc */
+    align-items: center; 
+}
+
+.bold-text {
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.blue-text {
+    color: #002f72;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 12px;
+}
