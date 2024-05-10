@@ -1,4 +1,4 @@
-![image](https://github.com/TranTienProVip123/Connect-Spark-to-a-database-perform-analytics-place-review-from-google-map-in-a-Flask-app/assets/169421431/66e7f38e-1f94-4010-a329-a11c41f65050)# Connect-Spark-to-a-database-perform-analytics-place-review-from-google-map-in-a-Flask-app
+Connect-Spark-to-a-database-perform-analytics-place-review-from-google-map-in-a-Flask-app
 Build demo using the Flask-app to visualize analyzed reviews, use Spark to analyze and make evaluation predictions.
 
 INTRODUCE
